@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Nucleo', sans-serif;                    
+    src: url('~/assets/font/nucleo.ttf') format('truetype'); /* Ensure the format is correct */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Nucleo', sans-serif;
+                                                
+}
