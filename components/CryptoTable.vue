@@ -46,7 +46,7 @@
               {{
                 crypto.maxSupply
                   ? parseFloat(crypto.maxSupply).toLocaleString()
-                  : "No Limit"
+                  : "NO LIMIT"
               }}
             </td>
             <td class="px-4 py-4 text-data text-center">
@@ -75,7 +75,6 @@
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
 
 const props = defineProps({
   cryptocurrencies: {

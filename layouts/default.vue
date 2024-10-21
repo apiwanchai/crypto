@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-gray-100 flex flex-col md:flex-row">
-    <div class=" md:hidden p-4">
+    <div class="md:hidden p-4">
       <button
         @click="isOpen = !isOpen"
         class="flex items-center justify-center w-10 h-10 bg-pink-500 rounded-lg text-white"
